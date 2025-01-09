@@ -2,6 +2,7 @@
     "name": "dusant94/task-bundle",
     "description": "Test bundle for Pimcore",
     "type": "pimcore-bundle",
+    "license": "MIT",
     "require": {
       "pimcore/pimcore": "^11.0"
     },

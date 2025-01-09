@@ -3,7 +3,7 @@
 **Installation**
 
 ```bash
-composer require solvex/test-bundle
+composer require dusant/test-bundle
 ```
 
 Enable it:
