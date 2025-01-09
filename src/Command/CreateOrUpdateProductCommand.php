@@ -1,12 +1,12 @@
 <?php
 
-namespace SolveX\TaskBundle\Command;
+namespace Dusant\TaskBundle\Command;
 
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Style\SymfonyStyle;
-use SolveX\TaskBundle\Command\AbstractImportCommand;
+use Dusant\TaskBundle\Command\AbstractImportCommand;
 use Pimcore\Model\DataObject\Product;
 
 class CreateOrUpdateProductCommand extends AbstractImportCommand

@@ -1,8 +1,8 @@
 <?php
 
-namespace SolveX\TaskBundle\Command;
+namespace Dusant\TaskBundle\Command;
 
-use SolveX\TaskBundle\Service\ProductService;
+use Dusant\TaskBundle\Service\ProductService;
 use Pimcore\Console\AbstractCommand;
 
 abstract class AbstractImportCommand extends AbstractCommand
