@@ -12,21 +12,21 @@ services:
     #
     # INSTALLER
     #
-    SolveX\TaskBundle\Tools\Installer:
+    Dusant\TaskBundle\Tools\Installer:
         public: true
         arguments:
             # fetch the bundle via expression language
-            $bundle: "@=service('kernel').getBundle('SolveXTaskBundle')"
+            $bundle: "@=service('kernel').getBundle('DusantTaskBundle')"
 
     # controllers are imported separately to make sure they're public
     # and have a tag that allows actions to type-hint services
-    SolveX\TaskBundle\Controller\:
+    Dusant\TaskBundle\Controller\:
         resource: '../src/Controller'
         public: true
         tags: ['controller.service_arguments']
 
 # add more services, or override services that need manual wiring
-#    SolveX\TaskBundle\ExampleClass:
+#    Dusant\TaskBundle\ExampleClass:
 #        arguments:
 #            - "@service_id"
 #            - "plain_value"
@@ -37,12 +37,12 @@ services:
     #
 
     # auto-register all commands as services
-    SolveX\TaskBundle\Command\:
+    Dusant\TaskBundle\Command\:
         resource: '../src/Command/*'
         tags: [ 'console.command' ]
 
     # ---------------------------------------------------------
     # SERVICES
     # ---------------------------------------------------------
-    SolveX\TaskBundle\Service\ProductService:
+    Dusant\TaskBundle\Service\ProductService:
         public: true

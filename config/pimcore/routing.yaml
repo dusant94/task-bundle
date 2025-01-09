@@ -1,6 +1,6 @@
 solve_x_task_homepage:
     path:     /solve_x_task
-    defaults: { _controller: SolveX\TaskBundle\Controller\DefaultController::indexAction }
+    defaults: { _controller: Dusant\TaskBundle\Controller\DefaultController::indexAction }
 
 solvex_api:
     resource: "../../src/Controller/"
