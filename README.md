@@ -32,5 +32,10 @@ composer remove dusant94/task-bundle
 
 **Updating or creating Product with command**
 ```bash
-php bin/console dusant:create-or-update-product
+php bin/console dusant:create-or-update-product <sku> <name> 
+``` 
+
+**Updating or creating Product with api endpoint**
+```bash
+
 ``` 

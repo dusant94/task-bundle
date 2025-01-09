@@ -16,9 +16,9 @@ class CreateOrUpdateProductCommand extends AbstractImportCommand
         $this
             ->setName('dusant:create-or-update-product')
             ->setDescription('Create or update a product using SKU, price, and optionally name.')
-            ->addOption('sku', InputOption::VALUE_REQUIRED, 'Product SKU')
-            ->addOption('price', InputOption::VALUE_REQUIRED, 'Product price')
-            ->addOption('name', InputOption::VALUE_OPTIONAL, 'Product name');
+            ->addOption('sku', null, InputOption::VALUE_REQUIRED, 'Product SKU')
+            ->addOption('price', null, InputOption::VALUE_REQUIRED, 'Product price')
+            ->addOption('name', null, InputOption::VALUE_OPTIONAL, 'Product name');
     }
 
     protected function execute(InputInterface $input, OutputInterface $output)
