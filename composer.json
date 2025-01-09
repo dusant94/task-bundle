@@ -1,5 +1,5 @@
 {
-    "name": "solvex/task-bundle",
+    "name": "dusant94/task-bundle",
     "description": "Test bundle for Pimcore",
     "type": "pimcore-bundle",
     "require": {
@@ -7,18 +7,18 @@
     },
     "autoload": {
       "psr-4": {
-        "SolveX\\TaskBundle\\": "src/"
+        "Dusant\\TaskBundle\\": "src/"
       }
     },
     "autoload-dev": {
         "psr-4": {
-            "SolveX\\TaskBundle\\Tests\\": "tests/"
+            "Dusant\\TaskBundle\\Tests\\": "tests/"
         }
     },
     "extra": {
       "pimcore-bundle": {
-        "bundle-name": "SolveXTaskBundle",
-        "bundle-class": "SolveX\\TaskBundle\\SolveXTaskBundle"
+        "bundle-name": "DusantTaskBundle",
+        "bundle-class": "Dusant\\TaskBundle\\DusantTaskBundle"
       }
     },
     "scripts": {

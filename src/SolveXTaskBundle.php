@@ -1,12 +1,12 @@
 <?php
 
-namespace SolveX\TaskBundle;
+namespace Dusant\TaskBundle;
 
 use Pimcore\Extension\Bundle\AbstractPimcoreBundle;
 use Pimcore\Extension\Bundle\PimcoreBundleAdminClassicInterface;
 use Pimcore\Extension\Bundle\Traits\BundleAdminClassicTrait;
 use Pimcore\Extension\Bundle\Traits\PackageVersionTrait;
-use SolveX\TaskBundle\Tools\Installer;
+use Dusant\TaskBundle\Tools\Installer;
 
 class SolveXTaskBundle extends AbstractPimcoreBundle implements PimcoreBundleAdminClassicInterface
 {
@@ -28,14 +28,14 @@ class SolveXTaskBundle extends AbstractPimcoreBundle implements PimcoreBundleAdm
     public function getJsPaths(): array
     {
         return [
-            '/bundles/solvextask/js/pimcore/startup.js',
-            '/bundles/solvextask/js/pimcore/form/productForm.js'
+            '/bundles/dusanttask/js/pimcore/startup.js',
+            '/bundles/dusanttask/js/pimcore/form/productForm.js'
         ];
     }
     public function getCssPaths(): array
     {
         return [
-            '/bundles/solvextask/css/style.css'
+            '/bundles/dusanttask/css/style.css'
         ];
     }
 

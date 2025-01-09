@@ -1,6 +1,6 @@
 <?php
 
-namespace SolveX\TaskBundle\Controller;
+namespace Dusant\TaskBundle\Controller;
 
 use Pimcore\Controller\FrontendController;
 use Symfony\Component\HttpFoundation\Request;

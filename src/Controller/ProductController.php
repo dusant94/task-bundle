@@ -1,6 +1,6 @@
 <?php
 
-namespace SolveX\TaskBundle\Controller;
+namespace Dusant\TaskBundle\Controller;
 
 use SolveX\TaskBundle\Service\ProductService;
 use Pimcore\Controller\FrontendController;

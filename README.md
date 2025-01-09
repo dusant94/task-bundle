@@ -11,19 +11,19 @@ Enable it:
 // config/bundles.php
 return [
     // ...
-    SolveX\TaskBundle\SolveXTaskBundle::class => ['all' => true],
+    SolveX\TaskBundle\DusantTaskBundle::class => ['all' => true],
 ];
 ```
 
 Install:
 ```bash
-php bin/console pimcore:bundle:install SolveXTaskBundle
+php bin/console pimcore:bundle:install DusantTaskBundle
 ``` 
 
 **Uninstall**
 
 ```bash
-php bin/console pimcore:bundle:uninstall SolveXTaskBundle
+php bin/console pimcore:bundle:uninstall DusantTaskBundle
 ``` 
 
 ```bash
