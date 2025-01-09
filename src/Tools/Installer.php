@@ -1,6 +1,6 @@
 <?php
 
-namespace SolveX\TaskBundle\Tools;
+namespace Dusant\TaskBundle\Tools;
 
 use Pimcore;
 use Pimcore\Extension\Bundle\Installer\SettingsStoreAwareInstaller;

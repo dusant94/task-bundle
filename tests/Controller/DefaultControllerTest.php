@@ -1,6 +1,6 @@
 <?php
 
-namespace SolveX\TaskBundle\Tests\Controller;
+namespace Dusant\TaskBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 

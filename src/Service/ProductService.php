@@ -1,6 +1,6 @@
 <?php
 
-namespace SolveX\TaskBundle\Service;
+namespace Dusant\TaskBundle\Service;
 
 use Pimcore\Model\DataObject\Product;
 use Pimcore\Model\DataObject\Service;

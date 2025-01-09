@@ -3,7 +3,7 @@
 **Installation**
 
 ```bash
-composer require dusant/test-bundle
+composer require dusant94/task-bundle
 ```
 
 Enable it:
@@ -27,6 +27,6 @@ php bin/console pimcore:bundle:uninstall DusantTaskBundle
 ``` 
 
 ```bash
-composer remove solvex/test-bundle
+composer remove dusant94/task-bundle
 ```
 

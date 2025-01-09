@@ -2,7 +2,7 @@
 
 namespace Dusant\TaskBundle\Controller;
 
-use SolveX\TaskBundle\Service\ProductService;
+use Dusant\TaskBundle\Service\ProductService;
 use Pimcore\Controller\FrontendController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;

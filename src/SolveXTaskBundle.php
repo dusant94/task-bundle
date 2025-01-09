@@ -8,7 +8,7 @@ use Pimcore\Extension\Bundle\Traits\BundleAdminClassicTrait;
 use Pimcore\Extension\Bundle\Traits\PackageVersionTrait;
 use Dusant\TaskBundle\Tools\Installer;
 
-class SolveXTaskBundle extends AbstractPimcoreBundle implements PimcoreBundleAdminClassicInterface
+class DusantTaskBundle extends AbstractPimcoreBundle implements PimcoreBundleAdminClassicInterface
 {
     use PackageVersionTrait {
         getVersion as protected getComposerVersion;
