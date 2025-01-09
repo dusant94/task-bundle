@@ -11,7 +11,7 @@ Enable it:
 // config/bundles.php
 return [
     // ...
-    SolveX\TaskBundle\DusantTaskBundle::class => ['all' => true],
+    Dusant\TaskBundle\DusantTaskBundle::class => ['all' => true],
 ];
 ```
 
