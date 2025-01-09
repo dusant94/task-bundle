@@ -1,0 +1,32 @@
+{
+    "name": "solvex/task-bundle",
+    "description": "Test bundle for Pimcore",
+    "type": "pimcore-bundle",
+    "require": {
+      "pimcore/pimcore": "^11.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "SolveX\\TaskBundle\\": "src/"
+      }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SolveX\\TaskBundle\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+      "pimcore-bundle": {
+        "bundle-name": "SolveXTaskBundle",
+        "bundle-class": "SolveX\\TaskBundle\\SolveXTaskBundle"
+      }
+    },
+    "scripts": {
+      "post-install-cmd": [
+        "Pimcore\\Bundle\\BundleInstaller::installAssets"
+      ],
+      "post-update-cmd": [
+        "Pimcore\\Bundle\\BundleInstaller::installAssets"
+      ]
+    }
+  }
