@@ -17,7 +17,7 @@ class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder(): TreeBuilder
     {
-        $treeBuilder = new TreeBuilder('solve_x_task');
+        $treeBuilder = new TreeBuilder('dusan_t_task');
 
         // Here you should define the parameters that are allowed to
         // configure your bundle. See the documentation linked above for
