@@ -3,7 +3,7 @@
 namespace Dusant\TaskBundle\Command;
 
 use Symfony\Component\Console\Input\InputInterface;
-use Symfony\Component\Console\Input\InputArgument;
+use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Style\SymfonyStyle;
 use Dusant\TaskBundle\Command\AbstractImportCommand;
@@ -14,19 +14,19 @@ class CreateOrUpdateProductCommand extends AbstractImportCommand
     protected function configure()
     {
         $this
-            ->setName('solvex:create-or-update-product')
+            ->setName('dusant:create-or-update-product')
             ->setDescription('Create or update a product using SKU, price, and optionally name.')
-            ->addArgument('sku', InputArgument::REQUIRED, 'Product SKU')
-            ->addArgument('price', InputArgument::REQUIRED, 'Product price')
-            ->addArgument('name', InputArgument::OPTIONAL, 'Product name');
+            ->addOption('sku', InputOption::VALUE_REQUIRED, 'Product SKU')
+            ->addOption('price', InputOption::VALUE_REQUIRED, 'Product price')
+            ->addOption('name', InputOption::VALUE_OPTIONAL, 'Product name');
     }
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $sym = new SymfonyStyle($input, $output);
-        $sku = $input->getArgument('sku');
-        $name = $input->getArgument('name');
-        $price = (float) $input->getArgument('price');
+        $sku = $input->getOption('sku');
+        $name = $input->getOption('name');
+        $price = $input->getOption('price');
 
         try {
             $product = Product::getBySku($sku, 1);

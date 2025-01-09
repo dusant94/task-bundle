@@ -30,3 +30,7 @@ php bin/console pimcore:bundle:uninstall DusantTaskBundle
 composer remove dusant94/task-bundle
 ```
 
+**Updating or creating Product with command**
+```bash
+php bin/console dusant:create-or-update-product
+``` 
