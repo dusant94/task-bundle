@@ -44,7 +44,7 @@ curl --location 'http://localhost/product/create-or-update' \
 --data '{
   "sku": "<SKU>",
   "price": <PRICE>,
-  "name": "<PRODUCT_NAME>",
+  "name": "<PRODUCT_NAME>"
 }'
 ``` 
 **Custom modal form**
