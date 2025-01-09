@@ -1,4 +1,6 @@
-
+This bundle is tested on demo project of latest pimcore 11 version.
+I was not sure about error handling should Internal errors as I found it usefull in this type of bundle.
+This bundle will create Product class if it does not exist, if it already exist then you need to add fields sku name and price. 
 
 **Installation**
 
