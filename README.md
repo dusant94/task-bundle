@@ -47,4 +47,4 @@ curl --location 'http://localhost/product/create-or-update' \
 ``` 
 **Custom modal form**
 
-![](documentation/img/Screanshoot_2.png)
+![](documentation/img/Screenshot_2.png)
